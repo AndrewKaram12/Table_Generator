@@ -124,7 +124,7 @@ def patient_data_maker(target, row_count, probability, visible, appointment_prob
 
 if __name__ == '__main__':
     print("Starting process...")
-    filename = f"orders_{datetime.now().strftime('%Y%m%d')}.csv"
+    filename = f"Patients_{datetime.now().strftime('%Y%m%d')}.csv"
     print(f"Writing {filename}")
     parser.add_argument("--target")
     parser.add_argument("--rows", type = int)
